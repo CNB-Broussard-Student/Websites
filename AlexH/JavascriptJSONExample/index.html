@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JSON Data</h2>
+
+<p id="demo"></p>
+
+<script>
+
+let text ="";
+let response = [
+{"name":"John", "age":30, "city":"New York"},
+{"name":"Jane", "age":20, "city":"Chicago"},
+{"name":"Joe", "age":25, "city":"Miami"},
+{"name":"Jason", "age":35, "city":"Houston"},
+];
+
+response.forEach(function(item) {
+	text += item.name + " is " + item.age + " years old and lives in " + item.city + ".<br>";
+});
+document.getElementById("demo").innerHTML = text;
+
+</script>
+
+</body>
+</html>
