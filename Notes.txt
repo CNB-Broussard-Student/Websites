@@ -7,3 +7,8 @@ must turn off compression for WEBGL build.
 3) Player->Publishing Settings.
 4) Change "Compression Format" to 'Disable'.
 5) Build.
+
+16x9 aspect may work better for phones.
+
+Unity Canvas UI - Scale and Adapt to the device screen size! (Unity Editor Tips)
+https://www.youtube.com/watch?v=BNndkW4Oqno
