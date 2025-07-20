@@ -1,0 +1,9 @@
+URL FOR LEYTON: https://CNB-Broussard-Student.github.io/Websites/Leyton
+
+
+must turn off compression for WEBGL build.
+1) File->BUILD SETTINGS-WebGL.
+2) Click "Player Settings" button at bottom.
+3) Player->Publishing Settings.
+4) Change "Compression Format" to 'Disable'.
+5) Build.
